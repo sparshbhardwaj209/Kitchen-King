@@ -19,8 +19,8 @@ const About = lazy(() => import("./components/About"));
 
 const AppLayout = () => {
   const [user, setUser] = useState({
-    name: "Namaste Sparsh💖",
-    email: "sparsh@gmail.com",
+    name: "Sparsh💖",
+    email: "support@kitchenking.com",
   });
 
   // useEffect(()=>{

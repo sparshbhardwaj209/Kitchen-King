@@ -606,55 +606,35 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$8238.prelude(module);
 
 try {
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
 var _react = require("a59def013504367");
+var _jsxRuntime = require("eee1b7e9fb7b21db");
 const Section = ({ title, description, isVisible, setIsVisible })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+    return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
         className: "border-2 bg-slate-100 p-2 m-2 ",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h1", {
                 className: "font-light text-lg",
                 children: title
-            }, void 0, false, {
-                fileName: "src/components/Instamart.js",
-                lineNumber: 15,
-                columnNumber: 7
-            }, undefined),
-            isVisible ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+            }),
+            isVisible ? /*#__PURE__*/ (0, _jsxRuntime.jsx)("button", {
                 className: "cursor-pointer text-sm italic font-mono",
                 onClick: ()=>setIsVisible(false),
                 children: "Hide \u2B06"
-            }, void 0, false, {
-                fileName: "src/components/Instamart.js",
-                lineNumber: 16,
-                columnNumber: 20
-            }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+            }) : /*#__PURE__*/ (0, _jsxRuntime.jsx)("button", {
                 className: "cursor-pointer italic font-mono",
                 onClick: ()=>setIsVisible(true),
                 children: "Show \u2B07"
-            }, void 0, false, {
-                fileName: "src/components/Instamart.js",
-                lineNumber: 18,
-                columnNumber: 21
-            }, undefined),
-            isVisible && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+            }),
+            isVisible && /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
                 children: description
-            }, void 0, false, {
-                fileName: "src/components/Instamart.js",
-                lineNumber: 22,
-                columnNumber: 21
-            }, undefined)
+            })
         ]
-    }, void 0, true, {
-        fileName: "src/components/Instamart.js",
-        lineNumber: 14,
-        columnNumber: 10
-    }, undefined);
+    });
 };
 _c = Section;
 const Instamart = ()=>{
@@ -664,29 +644,20 @@ const Instamart = ()=>{
     //     showCareer: false,
     //   });
     const [visibleSection, setVisibleSection] = (0, _react.useState)("");
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(_jsxRuntime.Fragment, {
+        children: /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                /*#__PURE__*/ (0, _jsxRuntime.jsx)("h1", {
                     className: "text-3xl font-bold p-2 m-2",
                     children: "FAQs"
-                }, void 0, false, {
-                    fileName: "src/components/Instamart.js",
-                    lineNumber: 35,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Section, {
+                }),
+                /*#__PURE__*/ (0, _jsxRuntime.jsx)(Section, {
                     title: "I want to partner my restaurant with Kitchen King",
                     description: "Send an Email to us at support@kitchenking.com",
-                    //   isVisible={sectionConfig.showAbout}
                     isVisible: visibleSection == "partner",
                     setIsVisible: ()=>setVisibleSection("partner")
-                }, void 0, false, {
-                    fileName: "src/components/Instamart.js",
-                    lineNumber: 36,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Section, {
+                }),
+                /*#__PURE__*/ (0, _jsxRuntime.jsx)(Section, {
                     title: "What are the mandatory documents needed to list my restaurant on Kitchen King?",
                     description: `-  Copies of the below documents are mandatory
             -  FSSAI Licence OR FSSAI Acknowledgement
@@ -696,48 +667,28 @@ const Instamart = ()=>{
             -  Menu`,
                     isVisible: visibleSection == "mandatory document",
                     setIsVisible: ()=>setVisibleSection("mandatory document")
-                }, void 0, false, {
-                    fileName: "src/components/Instamart.js",
-                    lineNumber: 40,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Section, {
+                }),
+                /*#__PURE__*/ (0, _jsxRuntime.jsx)(Section, {
                     title: "After I submit all documents, how long will it take for my restaurant to go live on Kitchen King?",
                     description: "After all mandatory documents have been received and verified it takes upto 7-10 working days for the onboarding to be completed and make your restaurant live on the platform.",
                     isVisible: visibleSection == "live",
                     setIsVisible: ()=>setVisibleSection("live")
-                }, void 0, false, {
-                    fileName: "src/components/Instamart.js",
-                    lineNumber: 47,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Section, {
+                }),
+                /*#__PURE__*/ (0, _jsxRuntime.jsx)(Section, {
                     title: "What is this one time Onboarding fees? Do I have to pay for it while registering?",
                     description: "This is a one-time fee charged towards the system & admin costs incurred during the onboarding process. It is deducted from the weekly payouts after you start receiving orders from Kitchen King.",
                     isVisible: visibleSection == "fees",
                     setIsVisible: ()=>setVisibleSection("fees")
-                }, void 0, false, {
-                    fileName: "src/components/Instamart.js",
-                    lineNumber: 48,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Section, {
+                }),
+                /*#__PURE__*/ (0, _jsxRuntime.jsx)(Section, {
                     title: "How much commission will I be charged by Kitchen King?",
                     description: "The commission charges vary for different cities. You will be able to see the commission applicable for you once the preliminary onboarding details have been filled.",
                     isVisible: visibleSection == "commission",
                     setIsVisible: ()=>setVisibleSection("commission")
-                }, void 0, false, {
-                    fileName: "src/components/Instamart.js",
-                    lineNumber: 49,
-                    columnNumber: 9
-                }, undefined)
+                })
             ]
-        }, void 0, true, {
-            fileName: "src/components/Instamart.js",
-            lineNumber: 34,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false);
+        })
+    });
 };
 _c1 = Instamart;
 var _default = exports.default = Instamart;
@@ -750,6 +701,6 @@ $RefreshReg$(_c1, "Instamart");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","a59def013504367":"21dqq"}]},["wMPDB","1xC6H"], null, "parcelRequire164e")
+},{"a59def013504367":"21dqq","eee1b7e9fb7b21db":"6AEwr","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["wMPDB","1xC6H"], null, "parcelRequire164e")
 
 //# sourceMappingURL=Instamart.0762395e.js.map

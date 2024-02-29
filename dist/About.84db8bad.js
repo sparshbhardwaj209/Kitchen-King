@@ -606,7 +606,6 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$5b98.prelude(module);
 
 try {
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -617,6 +616,7 @@ var _aboutPhoto = _interopRequireDefault(require("40f3ba27e4136145"));
 var _Profile = _interopRequireDefault(require("6caab5f42b77f65e"));
 var _ProfileClass = _interopRequireDefault(require("8792e34638b5ea5a"));
 var _UserContext = _interopRequireDefault(require("3c5e6c67159bf856"));
+var _jsxRuntime = require("9aff5c9ea7aa2f6c");
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -628,171 +628,91 @@ class About extends _react.default.Component {
         super(props);
     }
     render() {
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
             className: "mt-2 p-2 flex flex-col  md:flex-row ",
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
                     className: "md:w-1/2  p-3",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    children: /*#__PURE__*/ (0, _jsxRuntime.jsx)("img", {
                         className: "h-[450px] rounded-2xl content-center mx-auto ",
                         src: _aboutPhoto.default,
                         alt: "Profile image"
-                    }, void 0, false, {
-                        fileName: "src/components/About.js",
-                        lineNumber: 22,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/About.js",
-                    lineNumber: 21,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    })
+                }),
+                /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
                     className: "md:w-2/3 mx-auto p-6 ",
                     children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        /*#__PURE__*/ (0, _jsxRuntime.jsxs)("h4", {
                             className: "font-semibold",
                             children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                /*#__PURE__*/ (0, _jsxRuntime.jsx)("span", {
                                     className: "font-extrabold text-xl",
                                     children: "Hello!"
-                                }, void 0, false, {
-                                    fileName: "src/components/About.js",
-                                    lineNumber: 26,
-                                    columnNumber: 12
-                                }, this),
+                                }),
                                 ", I'm ",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                /*#__PURE__*/ (0, _jsxRuntime.jsx)("span", {
                                     className: "text-2xl underline font-bold",
                                     children: "Sparsh Bhardwaj"
-                                }, void 0, false, {
-                                    fileName: "src/components/About.js",
-                                    lineNumber: 26,
-                                    columnNumber: 72
-                                }, this),
+                                }),
                                 ", an MCA student at YMCA JCBose UST. Coding is not just a part of my studies; it's a passion that fuels my enthusiasm. In my journey, I've cultivated a solid foundation in various technologies."
                             ]
-                        }, void 0, true, {
-                            fileName: "src/components/About.js",
-                            lineNumber: 25,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                            fileName: "src/components/About.js",
-                            lineNumber: 31,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        }),
+                        /*#__PURE__*/ (0, _jsxRuntime.jsx)("br", {}),
+                        /*#__PURE__*/ (0, _jsxRuntime.jsx)("h4", {
                             className: "font-semibold",
                             children: "My proficiency spans HTML, CSS, JavaScript, Bootstrap, TailwindCSS, React, C, CPP, Java, and AWS services like EC2, IAM, S3, CloudWatch, Load Balancer, Auto Scaling, CloudFront, and Amazon RDS. Additionally, I'm well-versed in SQL, DBMS, and more."
-                        }, void 0, false, {
-                            fileName: "src/components/About.js",
-                            lineNumber: 32,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                            fileName: "src/components/About.js",
-                            lineNumber: 38,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        }),
+                        /*#__PURE__*/ (0, _jsxRuntime.jsx)("br", {}),
+                        /*#__PURE__*/ (0, _jsxRuntime.jsxs)("h4", {
                             className: "font-semibold",
                             children: [
                                 'During my spare time, I channel my passion into meaningful projects. One such project is "',
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                /*#__PURE__*/ (0, _jsxRuntime.jsx)("span", {
                                     className: "font-extrabold text-lg",
                                     children: "DevSpace"
-                                }, void 0, false, {
-                                    fileName: "src/components/About.js",
-                                    lineNumber: 41,
-                                    columnNumber: 34
-                                }, this),
+                                }),
                                 '," a social media site tailored for developers to connect and share knowledge through posts. This project reflects not only my technical skills but also my commitment to fostering a collaborative developer community.'
                             ]
-                        }, void 0, true, {
-                            fileName: "src/components/About.js",
-                            lineNumber: 39,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                            fileName: "src/components/About.js",
-                            lineNumber: 46,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        }),
+                        /*#__PURE__*/ (0, _jsxRuntime.jsx)("br", {}),
+                        /*#__PURE__*/ (0, _jsxRuntime.jsxs)("h4", {
                             className: "font-semibold",
                             children: [
                                 "I've also ventured into data-driven decision-making using Python. In my project on ",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                /*#__PURE__*/ (0, _jsxRuntime.jsx)("span", {
                                     className: "font-extrabold text-lg",
                                     children: "Supermarket Sales Analysis and Forecasting"
-                                }, void 0, false, {
-                                    fileName: "src/components/About.js",
-                                    lineNumber: 49,
-                                    columnNumber: 27
-                                }, this),
+                                }),
                                 ", I employed tools like NumPy, Pandas, Matplotlib, Seaborn, and ARIMA. This project showcases my analytical skills in handling and interpreting data to make informed decisions, a valuable asset for any team."
                             ]
-                        }, void 0, true, {
-                            fileName: "src/components/About.js",
-                            lineNumber: 47,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                        }),
+                        /*#__PURE__*/ (0, _jsxRuntime.jsxs)("h4", {
                             className: "font-semibold",
                             children: [
                                 "You can explore more about my projects on my GitHub profile:\xa0",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                /*#__PURE__*/ (0, _jsxRuntime.jsx)("span", {
                                     className: "font-light italic",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    children: /*#__PURE__*/ (0, _jsxRuntime.jsx)("a", {
                                         target: "_blank",
                                         href: "https://github.com/sparshbhardwaj209",
                                         children: " here \u2197\uFE0F"
-                                    }, void 0, false, {
-                                        fileName: "src/components/About.js",
-                                        lineNumber: 57,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/About.js",
-                                    lineNumber: 56,
-                                    columnNumber: 13
-                                }, this),
+                                    })
+                                }),
                                 "and learn more about me through my LinkTree:\xa0",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                /*#__PURE__*/ (0, _jsxRuntime.jsx)("span", {
                                     className: "font-light italic",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    children: /*#__PURE__*/ (0, _jsxRuntime.jsx)("a", {
                                         target: "_blank",
                                         href: "https://linktr.ee/SparshBhardwaj",
                                         children: "here \u2197\uFE0F"
-                                    }, void 0, false, {
-                                        fileName: "src/components/About.js",
-                                        lineNumber: 61,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/About.js",
-                                    lineNumber: 60,
-                                    columnNumber: 13
-                                }, this)
+                                    })
+                                })
                             ]
-                        }, void 0, true, {
-                            fileName: "src/components/About.js",
-                            lineNumber: 54,
-                            columnNumber: 11
-                        }, this)
+                        })
                     ]
-                }, void 0, true, {
-                    fileName: "src/components/About.js",
-                    lineNumber: 24,
-                    columnNumber: 9
-                }, this)
+                })
             ]
-        }, void 0, true, {
-            fileName: "src/components/About.js",
-            lineNumber: 20,
-            columnNumber: 12
-        }, this);
+        });
     }
 }
 var _default = exports.default = About;
@@ -802,7 +722,7 @@ var _default = exports.default = About;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","bbc6d23085232c2d":"21dqq","40f3ba27e4136145":"lUvHj","6caab5f42b77f65e":"h0rtF","8792e34638b5ea5a":"aeEz8","3c5e6c67159bf856":"c5vgB"}],"lUvHj":[function(require,module,exports) {
+},{"bbc6d23085232c2d":"21dqq","40f3ba27e4136145":"lUvHj","6caab5f42b77f65e":"h0rtF","8792e34638b5ea5a":"aeEz8","3c5e6c67159bf856":"c5vgB","9aff5c9ea7aa2f6c":"6AEwr","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lUvHj":[function(require,module,exports) {
 module.exports = require("f51a963c1d712184").getBundleURL("fa0aR") + "aboutPhoto.d81ebea7.jpg" + "?" + Date.now();
 
 },{"f51a963c1d712184":"lgJ39"}],"aeEz8":[function(require,module,exports) {
@@ -812,13 +732,13 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$1beb.prelude(module);
 
 try {
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
 var _react = _interopRequireDefault(require("52cb1eabc3b7eb2a"));
+var _jsxRuntime = require("998544f4ce965d65");
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -829,50 +749,26 @@ class ProfileClass extends _react.default.Component {
         super(props);
     }
     render() {
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                /*#__PURE__*/ (0, _jsxRuntime.jsx)("h1", {
                     children: "this is ProfileClass"
-                }, void 0, false, {
-                    fileName: "src/components/ProfileClass.js",
-                    lineNumber: 15,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                }),
+                /*#__PURE__*/ (0, _jsxRuntime.jsx)("h3", {
                     children: this.state.userInfo?.name
-                }, void 0, false, {
-                    fileName: "src/components/ProfileClass.js",
-                    lineNumber: 16,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                }),
+                /*#__PURE__*/ (0, _jsxRuntime.jsx)("h3", {
                     children: this.state.userInfo?.bio
-                }, void 0, false, {
-                    fileName: "src/components/ProfileClass.js",
-                    lineNumber: 17,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                }),
+                /*#__PURE__*/ (0, _jsxRuntime.jsx)("h3", {
                     children: this.state.userInfo?.twitter_username
-                }, void 0, false, {
-                    fileName: "src/components/ProfileClass.js",
-                    lineNumber: 18,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                }),
+                /*#__PURE__*/ (0, _jsxRuntime.jsx)("img", {
                     src: this.state.userInfo?.avatar_url,
                     alt: "Avatar"
-                }, void 0, false, {
-                    fileName: "src/components/ProfileClass.js",
-                    lineNumber: 19,
-                    columnNumber: 9
-                }, this)
+                })
             ]
-        }, void 0, true, {
-            fileName: "src/components/ProfileClass.js",
-            lineNumber: 14,
-            columnNumber: 12
-        }, this);
+        });
     }
 }
 var _default = exports.default = ProfileClass;
@@ -882,6 +778,6 @@ var _default = exports.default = ProfileClass;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","52cb1eabc3b7eb2a":"21dqq","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["7AeGd","1xC6H"], null, "parcelRequire164e")
+},{"52cb1eabc3b7eb2a":"21dqq","998544f4ce965d65":"6AEwr","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["7AeGd","1xC6H"], null, "parcelRequire164e")
 
 //# sourceMappingURL=About.84db8bad.js.map

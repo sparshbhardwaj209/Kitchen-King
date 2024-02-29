@@ -20,13 +20,18 @@ const RestaurantMenu = () => {
   if (restaurant === null) return <Shimmer />;
 
   const { name, areaName, avgRating, costForTwoMessage, cloudinaryImageId } =
-    restaurant?.cards[2]?.card?.card?.info;
+    restaurant?.cards[0]?.card?.card?.info;
+
+  // console.log(restaurant)
 
   // const category = restaurant?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[5]?.card?.card?.itemCards[2]?.card;
+  // const menu =
+  //   restaurant?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card
+  //     ?.card;
   const menu =
-    restaurant?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card
+    restaurant?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card
       ?.card;
-  console.log(menu);
+  // console.log(menu);
 
   return (
     <>
@@ -66,11 +71,19 @@ const RestaurantMenu = () => {
                   >
                     {itemCards?.card?.info?.name}
                   </li>
-                  <h1 className="text-sm font-normal">₹ {itemCards?.card?.info?.defaultPrice / 100}</h1>
-                  <h3 className="font-light">{itemCards?.card?.info?.description}</h3>
+                  <h1 className="text-sm font-normal">
+                    ₹ {itemCards?.card?.info?.defaultPrice / 100}
+                  </h1>
+                  <h3 className="font-light">
+                    {itemCards?.card?.info?.description}
+                  </h3>
                 </div>
                 <div className="m-1 flex flex-col justify-between">
-                  <img className="w-16 object-cover rounded-sm" src={IMG_URL_CDN + itemCards?.card?.info?.imageId} alt="" />
+                  <img
+                    className="w-16 object-cover rounded-sm"
+                    src={IMG_URL_CDN + itemCards?.card?.info?.imageId}
+                    alt=""
+                  />
                   <button
                     className="pl-2 pr-2 pt-1 pb-1 text-sm bg-[#02060c] font-medium text-white rounded-md hover:bg-slate-800"
                     onClick={() => addFoodItem(itemCards?.card?.info)}
