@@ -64,7 +64,7 @@ To get a local copy of this project up and running, follow these steps:
 
 ## Usage
 
-Insert video or GIF demonstration here
+It's free to use, and use this only for the education purposes.
 
 ---
 
